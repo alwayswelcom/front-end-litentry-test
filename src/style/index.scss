@@ -1,0 +1,42 @@
+@import "login.scss";
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.loading {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-layout {
+    margin-left: 80px;
+    .custom-content-body {
+        padding: 24px; 
+        min-height: calc(100vh - 155px);
+    }
+}
+
+.app-logo {
+    margin-left: 8px;
+}
+
+.layout-header-title {
+    color: white;
+    margin-left: 32px;
+}
+
+@media screen and (min-width: 768px)  {
+    .custom-layout {
+        margin-left: 200px;
+        transition: 0.3s all;
+    }
+    .app-logo {
+        margin-left: 28px;
+        transition: 0.3s all;
+    }    
+}
