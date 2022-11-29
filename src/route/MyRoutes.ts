@@ -1,4 +1,4 @@
 export const MyRoutes = {
-  login: "/signin",
+  login: "/",
   secret: "/secret",
 };
